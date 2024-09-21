@@ -1,0 +1,87 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Poppins", sans-serif; 
+    font-weight: 500; 
+    font-style: normal; 
+  } 
+  input::-webkit-outer-spin-button, 
+  input::-webkit-inner-spin-button{ 
+    -webkit-appearance: none; 
+    margin: 0; 
+  } 
+  html { 
+    height: 100%; 
+    width: 100%; 
+  } 
+  .mainbox { 
+    height: 100vh; 
+    width: 100%; 
+    background: url("./bg.svg") center bottom / cover no-repeat; 
+    background-position: center bottom; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+  } 
+  h1 { 
+    color: #000000; 
+    padding-bottom: 20px; 
+  } 
+  .underbox { 
+    position: absolute; 
+    text-align: center; 
+    display: flex; 
+    justify-content: space-around; 
+    border: 2px solid #000000; 
+    backdrop-filter: blur(5px); 
+    padding: 7px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  } 
+  .form { 
+    margin: 30px; 
+    max-width: 400px; 
+  } 
+  form { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
+  } 
+  label { 
+    text-align: left; 
+    font-weight: 500; 
+    margin-bottom: 10px; 
+    display: block; 
+    font-size: 20px; 
+    color: #fefefe; 
+  } 
+  input { 
+    border-radius: 5px; 
+    border: 2px solid #000000; 
+    width: 100%; 
+    height: 40px; 
+    font-size: 18px; 
+    font-weight: normal; 
+    padding-left: 10px; 
+    outline: none; 
+    transition: all 0.3s ease-in-out; 
+    max-width: 100%; 
+  } 
+  input:focus { 
+    border-color: #000000; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  } 
+  .button { 
+    display: flex; 
+    justify-content: space-between; 
+  } 
+  button { 
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: #5EADD4; 
+    color: black; 
+    font-size: 20px; 
+    border: 2px solid black;
+  }
